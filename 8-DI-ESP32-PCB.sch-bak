@@ -1,0 +1,2215 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Isolator:LTV-847S U1
+U 1 1 5F888D9D
+P 2400 1150
+F 0 "U1" H 2400 1475 50  0000 C CNN
+F 1 "LTV-247" H 2400 1384 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 2400 850 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Apr18.PDF" H 1800 1600 50  0001 C CNN
+F 4 "LTV-247" H 2400 1150 50  0001 C CNN "MPN"
+F 5 "Lite-On" H 2400 1150 50  0001 C CNN "Manufacturer"
+	1    2400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847S U1
+U 3 1 5F88C81E
+P 2400 2750
+F 0 "U1" H 2400 3075 50  0000 C CNN
+F 1 "LTV-247" H 2400 2984 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 2400 2450 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Apr18.PDF" H 1800 3200 50  0001 C CNN
+F 4 "LTV-247" H 2400 2750 50  0001 C CNN "MPN"
+F 5 "Lite-On" H 2400 2750 50  0001 C CNN "Manufacturer"
+	3    2400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR055
+U 1 1 5F892E79
+P 9750 6150
+F 0 "#PWR055" H 9750 5900 50  0001 C CNN
+F 1 "GND1" H 9755 5977 50  0000 C CNN
+F 2 "" H 9750 6150 50  0001 C CNN
+F 3 "" H 9750 6150 50  0001 C CNN
+	1    9750 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR062
+U 1 1 5F893750
+P 10350 6150
+F 0 "#PWR062" H 10350 5900 50  0001 C CNN
+F 1 "GND2" H 10355 5977 50  0000 C CNN
+F 2 "" H 10350 6150 50  0001 C CNN
+F 3 "" H 10350 6150 50  0001 C CNN
+	1    10350 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 5F898287
+P 10050 5950
+F 0 "JP2" H 10050 6093 50  0000 C CNN
+F 1 "Jumper_2_Open" H 10050 6094 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10050 5950 50  0001 C CNN
+F 3 "~" H 10050 5950 50  0001 C CNN
+F 4 "Generic" H 10050 5950 50  0001 C CNN "Manufacturer"
+	1    10050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847S U2
+U 1 1 5F8A3174
+P 2400 4650
+F 0 "U2" H 2400 4975 50  0000 C CNN
+F 1 "LTV-247" H 2400 4884 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 2400 4350 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Apr18.PDF" H 1800 5100 50  0001 C CNN
+F 4 "LTV-247" H 2400 4650 50  0001 C CNN "MPN"
+F 5 "Lite-On" H 2400 4650 50  0001 C CNN "Manufacturer"
+	1    2400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847S U2
+U 2 1 5F8A317A
+P 2400 5450
+F 0 "U2" H 2400 5775 50  0000 C CNN
+F 1 "LTV-247" H 2400 5684 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 2400 5150 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Apr18.PDF" H 1800 5900 50  0001 C CNN
+F 4 "LTV-247" H 2400 5450 50  0001 C CNN "MPN"
+F 5 "Lite-On" H 2400 5450 50  0001 C CNN "Manufacturer"
+	2    2400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847S U2
+U 3 1 5F8A3180
+P 2400 6250
+F 0 "U2" H 2400 6575 50  0000 C CNN
+F 1 "LTV-247" H 2400 6484 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 2400 5950 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Apr18.PDF" H 1800 6700 50  0001 C CNN
+F 4 "LTV-247" H 2400 6250 50  0001 C CNN "MPN"
+F 5 "Lite-On" H 2400 6250 50  0001 C CNN "Manufacturer"
+	3    2400 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847S U2
+U 4 1 5F8A3186
+P 2400 7050
+F 0 "U2" H 2400 7375 50  0000 C CNN
+F 1 "LTV-247" H 2400 7284 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 2400 6750 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Apr18.PDF" H 1800 7500 50  0001 C CNN
+F 4 "LTV-247" H 2400 7050 50  0001 C CNN "MPN"
+F 5 "Lite-On" H 2400 7050 50  0001 C CNN "Manufacturer"
+	4    2400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR017
+U 1 1 5F8A3C24
+P 2750 1300
+F 0 "#PWR017" H 2750 1050 50  0001 C CNN
+F 1 "GND2" H 2755 1127 50  0000 C CNN
+F 2 "" H 2750 1300 50  0001 C CNN
+F 3 "" H 2750 1300 50  0001 C CNN
+	1    2750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5F8CA616
+P 2950 850
+F 0 "R9" H 3020 896 50  0000 L CNN
+F 1 "200Ω" H 3020 805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2880 850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2950 850 50  0001 C CNN
+F 4 "RC1206FR-07200RL" H 2950 850 50  0001 C CNN "MPN"
+F 5 "Yageo" H 2950 850 50  0001 C CNN "Manufacturer"
+	1    2950 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 5F8CBA07
+P 10050 5600
+F 0 "JP1" H 10050 5743 50  0000 C CNN
+F 1 "Jumper_2_Open" H 10050 5744 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10050 5600 50  0001 C CNN
+F 3 "~" H 10050 5600 50  0001 C CNN
+F 4 "Generic" H 10050 5600 50  0001 C CNN "Manufacturer"
+	1    10050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VPP #PWR061
+U 1 1 5F8CE286
+P 10350 5500
+F 0 "#PWR061" H 10350 5350 50  0001 C CNN
+F 1 "VPP" H 10365 5673 50  0000 C CNN
+F 2 "" H 10350 5500 50  0001 C CNN
+F 3 "" H 10350 5500 50  0001 C CNN
+	1    10350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR054
+U 1 1 5F8CFC21
+P 9750 5500
+F 0 "#PWR054" H 9750 5350 50  0001 C CNN
+F 1 "VCC" H 9765 5673 50  0000 C CNN
+F 2 "" H 9750 5500 50  0001 C CNN
+F 3 "" H 9750 5500 50  0001 C CNN
+	1    9750 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 5500 9750 5600
+Wire Wire Line
+	9750 5600 9850 5600
+Wire Wire Line
+	10250 5600 10350 5600
+Wire Wire Line
+	10350 5600 10350 5500
+Text GLabel 3050 1050 2    50   Input ~ 0
+GPIO36
+$Comp
+L power:+3V3 #PWR025
+U 1 1 5F8D40DD
+P 2950 700
+F 0 "#PWR025" H 2950 550 50  0001 C CNN
+F 1 "+3V3" H 2965 873 50  0000 C CNN
+F 2 "" H 2950 700 50  0001 C CNN
+F 3 "" H 2950 700 50  0001 C CNN
+	1    2950 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847S U1
+U 4 1 5F88D4A1
+P 2400 3550
+F 0 "U1" H 2400 3875 50  0000 C CNN
+F 1 "LTV-247" H 2400 3784 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 2400 3250 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Apr18.PDF" H 1800 4000 50  0001 C CNN
+F 4 "LTV-247" H 2400 3550 50  0001 C CNN "MPN"
+F 5 "Lite-On" H 2400 3550 50  0001 C CNN "Manufacturer"
+	4    2400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1050 2950 1000
+Wire Wire Line
+	3050 1050 2950 1050
+Connection ~ 2950 1050
+$Comp
+L Device:D_Schottky D9
+U 1 1 5F8E9810
+P 7850 5850
+F 0 "D9" V 7804 5930 50  0000 L CNN
+F 1 "380mV" V 7895 5930 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 7850 5850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG3005EGW.pdf" H 7850 5850 50  0001 C CNN
+F 4 "PMEG3005EGWX" H 7850 5850 50  0001 C CNN "MPN"
+F 5 "Nexperia" H 7850 5850 50  0001 C CNN "Manufacturer"
+	1    7850 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D10
+U 1 1 5F8E9D25
+P 8750 5850
+F 0 "D10" V 8704 5930 50  0000 L CNN
+F 1 "380mV" V 8795 5930 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 8750 5850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG3005EGW.pdf" H 8750 5850 50  0001 C CNN
+F 4 "PMEG3005EGWX" H 8750 5850 50  0001 C CNN "MPN"
+F 5 "Nexperia" H 8750 5850 50  0001 C CNN "Manufacturer"
+	1    8750 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F2
+U 1 1 5F8EA3CD
+P 8750 5550
+F 0 "F2" H 8838 5596 50  0000 L CNN
+F 1 "500mA" H 8838 5505 50  0000 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8800 5350 50  0001 L CNN
+F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf" H 8750 5550 50  0001 C CNN
+F 4 "0ZCJ0025AF2E" H 8750 5550 50  0001 C CNN "MPN"
+F 5 "Bel Fuse" H 8750 5550 50  0001 C CNN "Manufacturer"
+	1    8750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F1
+U 1 1 5F8EB16D
+P 7850 5550
+F 0 "F1" H 7938 5596 50  0000 L CNN
+F 1 "500mA" H 7938 5505 50  0000 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7900 5350 50  0001 L CNN
+F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf" H 7850 5550 50  0001 C CNN
+F 4 "0ZCJ0025AF2E" H 7850 5550 50  0001 C CNN "MPN"
+F 5 "Bel Fuse" H 7850 5550 50  0001 C CNN "Manufacturer"
+	1    7850 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR043
+U 1 1 5F8EE440
+P 7850 5400
+F 0 "#PWR043" H 7850 5250 50  0001 C CNN
+F 1 "VCC" H 7865 5573 50  0000 C CNN
+F 2 "" H 7850 5400 50  0001 C CNN
+F 3 "" H 7850 5400 50  0001 C CNN
+	1    7850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VPP #PWR050
+U 1 1 5F8EEFA9
+P 8750 5400
+F 0 "#PWR050" H 8750 5250 50  0001 C CNN
+F 1 "VPP" H 8765 5573 50  0000 C CNN
+F 2 "" H 8750 5400 50  0001 C CNN
+F 3 "" H 8750 5400 50  0001 C CNN
+	1    8750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J9
+U 1 1 5F8F0663
+P 7850 6200
+F 0 "J9" V 8000 6100 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" V 7813 6280 50  0001 L CNN
+F 2 "Custom Library:CUI_TB004-508-02BE" H 7850 6200 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tb007-508.pdf" H 7850 6200 50  0001 C CNN
+F 4 "TB007-508-02BE" H 7850 6200 50  0001 C CNN "MPN"
+F 5 "CUI Devices" H 7850 6200 50  0001 C CNN "Manufacturer"
+	1    7850 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J10
+U 1 1 5F8F1377
+P 8750 6200
+F 0 "J10" V 8900 6100 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" V 8713 6280 50  0001 L CNN
+F 2 "Custom Library:CUI_TB004-508-02BE" H 8750 6200 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tb007-508.pdf" H 8750 6200 50  0001 C CNN
+F 4 "TB007-508-02BE" H 8750 6200 50  0001 C CNN "MPN"
+F 5 "CUI Devices" H 8750 6200 50  0001 C CNN "Manufacturer"
+	1    8750 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND1 #PWR039
+U 1 1 5F8F3FF6
+P 7550 6050
+F 0 "#PWR039" H 7550 5800 50  0001 C CNN
+F 1 "GND1" H 7555 5877 50  0000 C CNN
+F 2 "" H 7550 6050 50  0001 C CNN
+F 3 "" H 7550 6050 50  0001 C CNN
+	1    7550 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 6050 7550 5950
+Wire Wire Line
+	7550 5950 7750 5950
+Wire Wire Line
+	7750 5950 7750 6000
+$Comp
+L power:GND2 #PWR047
+U 1 1 5F8F5F54
+P 8450 6050
+F 0 "#PWR047" H 8450 5800 50  0001 C CNN
+F 1 "GND2" H 8455 5877 50  0000 C CNN
+F 2 "" H 8450 6050 50  0001 C CNN
+F 3 "" H 8450 6050 50  0001 C CNN
+	1    8450 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 6050 8450 5950
+Wire Wire Line
+	8450 5950 8650 5950
+Wire Wire Line
+	8650 5950 8650 6000
+Wire Wire Line
+	10350 6150 10350 5950
+Wire Wire Line
+	10350 5950 10250 5950
+Wire Wire Line
+	9850 5950 9750 5950
+Wire Wire Line
+	9750 5950 9750 6150
+$Comp
+L Switch:SW_Push_Dual SW1
+U 1 1 5F8E9583
+P 10050 2900
+F 0 "SW1" H 10050 3185 50  0000 C CNN
+F 1 "RST" H 10050 3094 50  0000 C CNN
+F 2 "Custom Library:PTS647SM38SMTR2LFS" H 10050 3100 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/2567/pts647.pdf" H 10050 3100 50  0001 C CNN
+F 4 "PTS647SM38SMTR2LFS" H 10050 2900 50  0001 C CNN "MPN"
+F 5 "C&K" H 10050 2900 50  0001 C CNN "Manufacturer"
+	1    10050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5F8EA42D
+P 10050 3450
+F 0 "C14" V 9798 3450 50  0000 C CNN
+F 1 "100nF" V 9889 3450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10088 3300 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 10050 3450 50  0001 C CNN
+F 4 "885012207098" H 10050 3450 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 10050 3450 50  0001 C CNN "Manufacturer"
+	1    10050 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5F8EB285
+P 10050 4700
+F 0 "C15" V 9798 4700 50  0000 C CNN
+F 1 "100nF" V 9889 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10088 4550 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 10050 4700 50  0001 C CNN
+F 4 "885012207098" H 10050 4700 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 10050 4700 50  0001 C CNN "Manufacturer"
+	1    10050 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND2 #PWR053
+U 1 1 5F8EB992
+P 9750 4800
+F 0 "#PWR053" H 9750 4550 50  0001 C CNN
+F 1 "GND2" H 9755 4627 50  0000 C CNN
+F 2 "" H 9750 4800 50  0001 C CNN
+F 3 "" H 9750 4800 50  0001 C CNN
+	1    9750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR052
+U 1 1 5F8EC64C
+P 9750 3550
+F 0 "#PWR052" H 9750 3300 50  0001 C CNN
+F 1 "GND2" H 9755 3377 50  0000 C CNN
+F 2 "" H 9750 3550 50  0001 C CNN
+F 3 "" H 9750 3550 50  0001 C CNN
+	1    9750 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2900 9750 2900
+Wire Wire Line
+	9750 2900 9750 3100
+Wire Wire Line
+	9900 3450 9750 3450
+Connection ~ 9750 3450
+Wire Wire Line
+	9750 3450 9750 3550
+Wire Wire Line
+	9750 4800 9750 4700
+Wire Wire Line
+	9750 4150 9850 4150
+Wire Wire Line
+	9900 4700 9750 4700
+Connection ~ 9750 4700
+Wire Wire Line
+	9750 4700 9750 4350
+Wire Wire Line
+	9850 4350 9750 4350
+Connection ~ 9750 4350
+Wire Wire Line
+	9750 4350 9750 4150
+Wire Wire Line
+	9850 3100 9750 3100
+Connection ~ 9750 3100
+Wire Wire Line
+	9750 3100 9750 3450
+Wire Wire Line
+	10200 4700 10350 4700
+Wire Wire Line
+	10350 4700 10350 4350
+Wire Wire Line
+	10350 4350 10250 4350
+Wire Wire Line
+	10250 4150 10350 4150
+Wire Wire Line
+	10350 4150 10350 4350
+Connection ~ 10350 4350
+Wire Wire Line
+	10250 3100 10350 3100
+Wire Wire Line
+	10350 3100 10350 3450
+Wire Wire Line
+	10350 3450 10200 3450
+Wire Wire Line
+	10250 2900 10350 2900
+Wire Wire Line
+	10350 2900 10350 3100
+Connection ~ 10350 3100
+Text GLabel 10450 4150 2    50   Input ~ 0
+GPIO0
+Text GLabel 10450 2900 2    50   Input ~ 0
+EN
+Wire Wire Line
+	10450 2900 10350 2900
+Connection ~ 10350 2900
+Wire Wire Line
+	10450 4150 10350 4150
+Connection ~ 10350 4150
+$Comp
+L Connector:Conn_01x03_Female J11
+U 1 1 5F90812A
+P 10050 1950
+F 0 "J11" V 10250 1900 50  0000 L CNN
+F 1 "PROGRAM CONN." V 10150 1650 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 10050 1950 50  0001 C CNN
+F 3 "~" H 10050 1950 50  0001 C CNN
+F 4 "Generic" H 10050 1950 50  0001 C CNN "Manufacturer"
+	1    10050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND2 #PWR058
+U 1 1 5F9091B4
+P 10150 2150
+F 0 "#PWR058" H 10150 1900 50  0001 C CNN
+F 1 "GND2" V 10150 1900 50  0000 C CNN
+F 2 "" H 10150 2150 50  0001 C CNN
+F 3 "" H 10150 2150 50  0001 C CNN
+	1    10150 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 2150 3    50   Input ~ 0
+RXD0
+Text GLabel 9950 2150 3    50   Input ~ 0
+TXD0
+$Comp
+L Device:C C11
+U 1 1 5F90EC4F
+P 8300 4450
+F 0 "C11" H 8415 4496 50  0000 L CNN
+F 1 "100nF" H 8415 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8338 4300 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 8300 4450 50  0001 C CNN
+F 4 "885012207098" H 8300 4450 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 8300 4450 50  0001 C CNN "Manufacturer"
+	1    8300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5F90EEF2
+P 7850 4450
+F 0 "C10" H 7965 4496 50  0000 L CNN
+F 1 "22µF" H 7965 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_6.3x5.4" H 7888 4300 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/865080643008.pdf" H 7850 4450 50  0001 C CNN
+F 4 "865080643008" H 7850 4450 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 7850 4450 50  0001 C CNN "Manufacturer"
+	1    7850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5F90F847
+P 8750 4650
+F 0 "C12" H 8865 4696 50  0000 L CNN
+F 1 "100nF" H 8865 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8788 4500 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 8750 4650 50  0001 C CNN
+F 4 "885012207098" H 8750 4650 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 8750 4650 50  0001 C CNN "Manufacturer"
+	1    8750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5F910129
+P 8750 4250
+F 0 "R17" H 8820 4296 50  0000 L CNN
+F 1 "10KΩ" H 8820 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8680 4250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8750 4250 50  0001 C CNN
+F 4 "RC1206FR-0710KL" H 8750 4250 50  0001 C CNN "MPN"
+F 5 "Yageo" H 8750 4250 50  0001 C CNN "Manufacturer"
+	1    8750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR049
+U 1 1 5F911DC2
+P 8750 4800
+F 0 "#PWR049" H 8750 4550 50  0001 C CNN
+F 1 "GND2" H 8755 4627 50  0000 C CNN
+F 2 "" H 8750 4800 50  0001 C CNN
+F 3 "" H 8750 4800 50  0001 C CNN
+	1    8750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR046
+U 1 1 5F912E34
+P 8300 4800
+F 0 "#PWR046" H 8300 4550 50  0001 C CNN
+F 1 "GND2" H 8305 4627 50  0000 C CNN
+F 2 "" H 8300 4800 50  0001 C CNN
+F 3 "" H 8300 4800 50  0001 C CNN
+	1    8300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR042
+U 1 1 5F91347A
+P 7850 4800
+F 0 "#PWR042" H 7850 4550 50  0001 C CNN
+F 1 "GND2" H 7855 4627 50  0000 C CNN
+F 2 "" H 7850 4800 50  0001 C CNN
+F 3 "" H 7850 4800 50  0001 C CNN
+	1    7850 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 4400 8750 4450
+Wire Wire Line
+	8300 4600 8300 4800
+Wire Wire Line
+	7850 4600 7850 4800
+Text GLabel 8900 4450 2    50   Input ~ 0
+EN
+Wire Wire Line
+	8900 4450 8750 4450
+Connection ~ 8750 4450
+Wire Wire Line
+	8750 4450 8750 4500
+$Comp
+L power:+3V3 #PWR048
+U 1 1 5F917AD5
+P 8750 4100
+F 0 "#PWR048" H 8750 3950 50  0001 C CNN
+F 1 "+3V3" H 8765 4273 50  0000 C CNN
+F 2 "" H 8750 4100 50  0001 C CNN
+F 3 "" H 8750 4100 50  0001 C CNN
+	1    8750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR045
+U 1 1 5F9188F3
+P 8300 4100
+F 0 "#PWR045" H 8300 3950 50  0001 C CNN
+F 1 "+3V3" H 8315 4273 50  0000 C CNN
+F 2 "" H 8300 4100 50  0001 C CNN
+F 3 "" H 8300 4100 50  0001 C CNN
+	1    8300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR041
+U 1 1 5F918FBA
+P 7850 4100
+F 0 "#PWR041" H 7850 3950 50  0001 C CNN
+F 1 "+3V3" H 7865 4273 50  0000 C CNN
+F 2 "" H 7850 4100 50  0001 C CNN
+F 3 "" H 7850 4100 50  0001 C CNN
+	1    7850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4300 8300 4100
+Wire Wire Line
+	7850 4100 7850 4300
+$Comp
+L Regulator_Linear:NCP1117-3.3_SOT223 U4
+U 1 1 5F998DE1
+P 8300 2850
+F 0 "U4" H 8300 3092 50  0000 C CNN
+F 1 "NCP1117LP" H 8300 3001 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8300 3050 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NCP1117LP-D.PDF" H 8400 2600 50  0001 C CNN
+F 4 "NCP1117LPST33T3G" H 8300 2850 50  0001 C CNN "MPN"
+F 5 "ON Semiconductor" H 8300 2850 50  0001 C CNN "Manufacturer"
+	1    8300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5F99A922
+P 7700 3100
+F 0 "C9" H 7815 3146 50  0000 L CNN
+F 1 "10µF" H 7815 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_5x5.4" H 7738 2950 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/865080642006.pdf" H 7700 3100 50  0001 C CNN
+F 4 "865080642006" H 7700 3100 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 7700 3100 50  0001 C CNN "Manufacturer"
+	1    7700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 5F99BF48
+P 8900 3100
+F 0 "C13" H 9015 3146 50  0000 L CNN
+F 1 "10µF" H 9015 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_5x5.4" H 8938 2950 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/865080642006.pdf" H 8900 3100 50  0001 C CNN
+F 4 "865080642006" H 8900 3100 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 8900 3100 50  0001 C CNN "Manufacturer"
+	1    8900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR044
+U 1 1 5F99C769
+P 8300 3350
+F 0 "#PWR044" H 8300 3100 50  0001 C CNN
+F 1 "GND2" H 8305 3177 50  0000 C CNN
+F 2 "" H 8300 3350 50  0001 C CNN
+F 3 "" H 8300 3350 50  0001 C CNN
+	1    8300 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 3350 8300 3300
+Wire Wire Line
+	7700 3250 7700 3300
+Wire Wire Line
+	7700 3300 8300 3300
+Connection ~ 8300 3300
+Wire Wire Line
+	8300 3300 8300 3150
+Wire Wire Line
+	8900 3250 8900 3300
+Wire Wire Line
+	8900 3300 8300 3300
+Wire Wire Line
+	7700 2950 7700 2850
+Wire Wire Line
+	7700 2850 8000 2850
+Wire Wire Line
+	8600 2850 8900 2850
+Wire Wire Line
+	8900 2850 8900 2950
+$Comp
+L power:+3V3 #PWR051
+U 1 1 5F9A40F6
+P 8900 2800
+F 0 "#PWR051" H 8900 2650 50  0001 C CNN
+F 1 "+3V3" H 8915 2973 50  0000 C CNN
+F 2 "" H 8900 2800 50  0001 C CNN
+F 3 "" H 8900 2800 50  0001 C CNN
+	1    8900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VPP #PWR040
+U 1 1 5F9A4AB0
+P 7700 2800
+F 0 "#PWR040" H 7700 2650 50  0001 C CNN
+F 1 "VPP" H 7715 2973 50  0000 C CNN
+F 2 "" H 7700 2800 50  0001 C CNN
+F 3 "" H 7700 2800 50  0001 C CNN
+	1    7700 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2800 7700 2850
+Connection ~ 7700 2850
+Wire Wire Line
+	8900 2800 8900 2850
+Connection ~ 8900 2850
+$Comp
+L Device:LED D12
+U 1 1 5F9AAD19
+P 10200 1300
+F 0 "D12" V 10239 1182 50  0000 R CNN
+F 1 "LED" V 10148 1182 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 10200 1300 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/156120VS75000.pdf" H 10200 1300 50  0001 C CNN
+F 4 "156120VS75000" H 10200 1300 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 10200 1300 50  0001 C CNN "Manufacturer"
+	1    10200 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND2 #PWR060
+U 1 1 5F9ADA51
+P 10200 1450
+F 0 "#PWR060" H 10200 1200 50  0001 C CNN
+F 1 "GND2" H 10205 1277 50  0000 C CNN
+F 2 "" H 10200 1450 50  0001 C CNN
+F 3 "" H 10200 1450 50  0001 C CNN
+	1    10200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5F9AE4E1
+P 10200 1000
+F 0 "R19" H 10270 1046 50  0000 L CNN
+F 1 "200Ω" H 10270 955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10130 1000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10200 1000 50  0001 C CNN
+F 4 "RC1206FR-07200RL" H 10200 1000 50  0001 C CNN "MPN"
+F 5 "Yageo" H 10200 1000 50  0001 C CNN "Manufacturer"
+	1    10200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR059
+U 1 1 5F9AF05B
+P 10200 850
+F 0 "#PWR059" H 10200 700 50  0001 C CNN
+F 1 "+3V3" H 10215 1023 50  0000 C CNN
+F 2 "" H 10200 850 50  0001 C CNN
+F 3 "" H 10200 850 50  0001 C CNN
+	1    10200 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1050 2950 1050
+$Comp
+L power:GND2 #PWR018
+U 1 1 5F9D271B
+P 2750 2100
+F 0 "#PWR018" H 2750 1850 50  0001 C CNN
+F 1 "GND2" H 2755 1927 50  0000 C CNN
+F 2 "" H 2750 2100 50  0001 C CNN
+F 3 "" H 2750 2100 50  0001 C CNN
+	1    2750 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 1850 2    50   Input ~ 0
+GPIO39
+$Comp
+L power:+3V3 #PWR026
+U 1 1 5F9D272A
+P 2950 1500
+F 0 "#PWR026" H 2950 1350 50  0001 C CNN
+F 1 "+3V3" H 2965 1673 50  0000 C CNN
+F 2 "" H 2950 1500 50  0001 C CNN
+F 3 "" H 2950 1500 50  0001 C CNN
+	1    2950 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1850 2950 1800
+Wire Wire Line
+	3050 1850 2950 1850
+Connection ~ 2950 1850
+Wire Wire Line
+	2700 1850 2950 1850
+$Comp
+L power:GND2 #PWR019
+U 1 1 5F9D6824
+P 2750 2900
+F 0 "#PWR019" H 2750 2650 50  0001 C CNN
+F 1 "GND2" H 2755 2727 50  0000 C CNN
+F 2 "" H 2750 2900 50  0001 C CNN
+F 3 "" H 2750 2900 50  0001 C CNN
+	1    2750 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 2650 2    50   Input ~ 0
+GPIO34
+$Comp
+L power:+3V3 #PWR027
+U 1 1 5F9D6833
+P 2950 2300
+F 0 "#PWR027" H 2950 2150 50  0001 C CNN
+F 1 "+3V3" H 2965 2473 50  0000 C CNN
+F 2 "" H 2950 2300 50  0001 C CNN
+F 3 "" H 2950 2300 50  0001 C CNN
+	1    2950 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2650 2950 2600
+Wire Wire Line
+	3050 2650 2950 2650
+Connection ~ 2950 2650
+Wire Wire Line
+	2700 2650 2950 2650
+$Comp
+L power:GND2 #PWR020
+U 1 1 5F9DAE1E
+P 2750 3700
+F 0 "#PWR020" H 2750 3450 50  0001 C CNN
+F 1 "GND2" H 2755 3527 50  0000 C CNN
+F 2 "" H 2750 3700 50  0001 C CNN
+F 3 "" H 2750 3700 50  0001 C CNN
+	1    2750 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3650 2750 3650
+Text GLabel 3050 3450 2    50   Input ~ 0
+GPIO35
+$Comp
+L power:+3V3 #PWR028
+U 1 1 5F9DAE2D
+P 2950 3100
+F 0 "#PWR028" H 2950 2950 50  0001 C CNN
+F 1 "+3V3" H 2965 3273 50  0000 C CNN
+F 2 "" H 2950 3100 50  0001 C CNN
+F 3 "" H 2950 3100 50  0001 C CNN
+	1    2950 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3450 2950 3400
+Wire Wire Line
+	3050 3450 2950 3450
+Connection ~ 2950 3450
+Wire Wire Line
+	2700 3450 2950 3450
+$Comp
+L power:GND2 #PWR021
+U 1 1 5F9DFEB4
+P 2750 4800
+F 0 "#PWR021" H 2750 4550 50  0001 C CNN
+F 1 "GND2" H 2755 4627 50  0000 C CNN
+F 2 "" H 2750 4800 50  0001 C CNN
+F 3 "" H 2750 4800 50  0001 C CNN
+	1    2750 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 6950 2    50   Input ~ 0
+GPIO23
+$Comp
+L power:+3V3 #PWR029
+U 1 1 5F9DFEC3
+P 2950 4200
+F 0 "#PWR029" H 2950 4050 50  0001 C CNN
+F 1 "+3V3" H 2965 4373 50  0000 C CNN
+F 2 "" H 2950 4200 50  0001 C CNN
+F 3 "" H 2950 4200 50  0001 C CNN
+	1    2950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4550 2950 4500
+Wire Wire Line
+	3050 4550 2950 4550
+Connection ~ 2950 4550
+Wire Wire Line
+	2700 4550 2950 4550
+$Comp
+L power:GND2 #PWR022
+U 1 1 5F9E4EA9
+P 2750 5600
+F 0 "#PWR022" H 2750 5350 50  0001 C CNN
+F 1 "GND2" H 2755 5427 50  0000 C CNN
+F 2 "" H 2750 5600 50  0001 C CNN
+F 3 "" H 2750 5600 50  0001 C CNN
+	1    2750 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 6150 2    50   Input ~ 0
+GPIO22
+$Comp
+L power:+3V3 #PWR030
+U 1 1 5F9E4EB8
+P 2950 5000
+F 0 "#PWR030" H 2950 4850 50  0001 C CNN
+F 1 "+3V3" H 2965 5173 50  0000 C CNN
+F 2 "" H 2950 5000 50  0001 C CNN
+F 3 "" H 2950 5000 50  0001 C CNN
+	1    2950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5350 2950 5300
+Wire Wire Line
+	3050 5350 2950 5350
+Connection ~ 2950 5350
+Wire Wire Line
+	2700 5350 2950 5350
+$Comp
+L power:GND2 #PWR023
+U 1 1 5F9EA6AC
+P 2750 6400
+F 0 "#PWR023" H 2750 6150 50  0001 C CNN
+F 1 "GND2" H 2755 6227 50  0000 C CNN
+F 2 "" H 2750 6400 50  0001 C CNN
+F 3 "" H 2750 6400 50  0001 C CNN
+	1    2750 6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 5350 2    50   Input ~ 0
+GPIO21
+$Comp
+L power:+3V3 #PWR031
+U 1 1 5F9EA6BB
+P 2950 5800
+F 0 "#PWR031" H 2950 5650 50  0001 C CNN
+F 1 "+3V3" H 2965 5973 50  0000 C CNN
+F 2 "" H 2950 5800 50  0001 C CNN
+F 3 "" H 2950 5800 50  0001 C CNN
+	1    2950 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6150 2950 6100
+Wire Wire Line
+	3050 6150 2950 6150
+Connection ~ 2950 6150
+Wire Wire Line
+	2700 6150 2950 6150
+$Comp
+L power:GND2 #PWR024
+U 1 1 5F9F0282
+P 2750 7200
+F 0 "#PWR024" H 2750 6950 50  0001 C CNN
+F 1 "GND2" H 2755 7027 50  0000 C CNN
+F 2 "" H 2750 7200 50  0001 C CNN
+F 3 "" H 2750 7200 50  0001 C CNN
+	1    2750 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 7150 2750 7150
+Text GLabel 3050 4550 2    50   Input ~ 0
+GPIO19
+$Comp
+L power:+3V3 #PWR032
+U 1 1 5F9F0291
+P 2950 6600
+F 0 "#PWR032" H 2950 6450 50  0001 C CNN
+F 1 "+3V3" H 2965 6773 50  0000 C CNN
+F 2 "" H 2950 6600 50  0001 C CNN
+F 3 "" H 2950 6600 50  0001 C CNN
+	1    2950 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6950 2950 6900
+Wire Wire Line
+	3050 6950 2950 6950
+Connection ~ 2950 6950
+Wire Wire Line
+	2700 6950 2950 6950
+$Comp
+L Device:LED D11
+U 1 1 5F9F7371
+P 9850 1300
+F 0 "D11" V 9889 1182 50  0000 R CNN
+F 1 "LED" V 9798 1182 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 9850 1300 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/156120VS75000.pdf" H 9850 1300 50  0001 C CNN
+F 4 "156120VS75000" H 9850 1300 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 9850 1300 50  0001 C CNN "Manufacturer"
+	1    9850 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5F9F737D
+P 9850 1000
+F 0 "R18" H 9920 1046 50  0000 L CNN
+F 1 "1KΩ" H 9920 955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9780 1000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9850 1000 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 9850 1000 50  0001 C CNN "MPN"
+F 5 "Yageo" H 9850 1000 50  0001 C CNN "Manufacturer"
+	1    9850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8-DI-ESP32-PCB-rescue:ESP32-WROVER-IE-ESP32-WROVER-IE U3
+U 1 1 5F8D92F8
+P 5300 1200
+F 0 "U3" H 5300 1650 50  0000 C CNN
+F 1 "ESP32-WROVER-IE" H 5300 1550 50  0000 C CNN
+F 2 "Custom Library:ESP32-WROVER-IE" H 5100 1250 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf" H 5100 1250 50  0001 C CNN
+F 4 "Espressif Systems" H 5300 -1500 50  0001 C CNN "Manufacturer"
+F 5 "M213EH2864UH3Q0" H 5300 -1600 50  0001 C CNN "MPN"
+	1    5300 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR038
+U 1 1 5F8DB356
+P 5300 3650
+F 0 "#PWR038" H 5300 3400 50  0001 C CNN
+F 1 "GND2" H 5305 3477 50  0000 C CNN
+F 2 "" H 5300 3650 50  0001 C CNN
+F 3 "" H 5300 3650 50  0001 C CNN
+	1    5300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3500 5150 3600
+Wire Wire Line
+	5150 3600 5250 3600
+Wire Wire Line
+	5300 3600 5300 3650
+Wire Wire Line
+	5350 3500 5350 3600
+Wire Wire Line
+	5350 3600 5300 3600
+Connection ~ 5300 3600
+Wire Wire Line
+	5250 3500 5250 3600
+Connection ~ 5250 3600
+Wire Wire Line
+	5250 3600 5300 3600
+Wire Wire Line
+	5450 3500 5450 3600
+Wire Wire Line
+	5450 3600 5350 3600
+Connection ~ 5350 3600
+Text GLabel 4800 1500 0    50   Input ~ 0
+EN
+Text GLabel 5800 2200 2    50   Input ~ 0
+GPIO0
+Text GLabel 5800 2550 2    50   Input ~ 0
+TXD0
+Text GLabel 5800 2650 2    50   Input ~ 0
+RXD0
+$Comp
+L power:+3V3 #PWR037
+U 1 1 5F8FD927
+P 5300 1200
+F 0 "#PWR037" H 5300 1050 50  0001 C CNN
+F 1 "+3V3" H 5315 1373 50  0000 C CNN
+F 2 "" H 5300 1200 50  0001 C CNN
+F 3 "" H 5300 1200 50  0001 C CNN
+	1    5300 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 1600 0    50   Input ~ 0
+GPIO36
+$Comp
+L power:GND1 #PWR057
+U 1 1 5F91E058
+P 9850 1450
+F 0 "#PWR057" H 9850 1200 50  0001 C CNN
+F 1 "GND1" H 9855 1277 50  0000 C CNN
+F 2 "" H 9850 1450 50  0001 C CNN
+F 3 "" H 9850 1450 50  0001 C CNN
+	1    9850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR056
+U 1 1 5F91EF4C
+P 9850 850
+F 0 "#PWR056" H 9850 700 50  0001 C CNN
+F 1 "VCC" H 9865 1023 50  0000 C CNN
+F 2 "" H 9850 850 50  0001 C CNN
+F 3 "" H 9850 850 50  0001 C CNN
+	1    9850 850 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5800 2000
+NoConn ~ 5800 2400
+NoConn ~ 5800 2300
+NoConn ~ 4800 2600
+Text GLabel 4800 1700 0    50   Input ~ 0
+GPIO39
+Text GLabel 4800 1800 0    50   Input ~ 0
+GPIO34
+Text GLabel 4800 1900 0    50   Input ~ 0
+GPIO35
+Text GLabel 5800 1500 2    50   Input ~ 0
+GPIO23
+Text GLabel 5800 1600 2    50   Input ~ 0
+GPIO22
+Text GLabel 5800 1700 2    50   Input ~ 0
+GPIO21
+NoConn ~ 5800 1900
+NoConn ~ 5800 2100
+NoConn ~ 4800 2700
+NoConn ~ 4800 2500
+NoConn ~ 4800 2400
+NoConn ~ 4800 2300
+NoConn ~ 4800 2200
+NoConn ~ 4800 2100
+NoConn ~ 4800 2000
+$Comp
+L Isolator:LTV-847S U1
+U 2 1 5F88B624
+P 2400 1950
+F 0 "U1" H 2400 2275 50  0000 C CNN
+F 1 "LTV-247" H 2400 2184 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 2400 1650 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Apr18.PDF" H 1800 2400 50  0001 C CNN
+F 4 "LTV-247" H 2400 1950 50  0001 C CNN "MPN"
+F 5 "Lite-On" H 2400 1950 50  0001 C CNN "Manufacturer"
+	2    2400 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 1250 0    50   Input ~ 0
+INPUT1
+$Comp
+L Device:C C1
+U 1 1 5F8A72FF
+P 1450 1500
+F 0 "C1" H 1565 1546 50  0000 L CNN
+F 1 "100nF" H 1565 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 1350 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 1450 1500 50  0001 C CNN
+F 4 "885012207098" H 1450 1500 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 1450 1500 50  0001 C CNN "Manufacturer"
+	1    1450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR01
+U 1 1 5F8A8B58
+P 1450 1650
+F 0 "#PWR01" H 1450 1400 50  0001 C CNN
+F 1 "GND1" H 1455 1477 50  0000 C CNN
+F 2 "" H 1450 1650 50  0001 C CNN
+F 3 "" H 1450 1650 50  0001 C CNN
+	1    1450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F8A7921
+P 1700 1250
+F 0 "R1" V 1493 1250 50  0000 C CNN
+F 1 "1KΩ" V 1584 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1630 1250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 1250 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 1700 1250 50  0001 C CNN "MPN"
+F 5 "Yageo" H 1700 1250 50  0001 C CNN "Manufacturer"
+	1    1700 1250
+	0    1    1    0   
+$EndComp
+Text GLabel 1350 2050 0    50   Input ~ 0
+INPUT2
+Text GLabel 1350 2850 0    50   Input ~ 0
+INPUT3
+Text GLabel 1350 3650 0    50   Input ~ 0
+INPUT4
+Text GLabel 1350 4750 0    50   Input ~ 0
+INPUT5
+Text GLabel 1350 5550 0    50   Input ~ 0
+INPUT6
+Text GLabel 1350 6350 0    50   Input ~ 0
+INPUT7
+Text GLabel 1350 7150 0    50   Input ~ 0
+INPUT8
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5FA71A1E
+P 4550 4550
+F 0 "J1" H 4522 4528 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 4522 4573 50  0001 R CNN
+F 2 "Custom Library:CUI_TBP02R2-381-03BE" H 4550 4550 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" H 4550 4550 50  0001 C CNN
+F 4 "TBP02R2-381-03BE" H 4550 4550 50  0001 C CNN "MPN"
+F 5 "CUI Devices" H 4550 4550 50  0001 C CNN "Manufacturer"
+	1    4550 4550
+	-1   0    0    1   
+$EndComp
+Text GLabel 4150 4450 0    50   Input ~ 0
+INPUT1
+$Comp
+L power:GND1 #PWR034
+U 1 1 5FA8D858
+P 4300 5950
+F 0 "#PWR034" H 4300 5700 50  0001 C CNN
+F 1 "GND1" H 4305 5777 50  0000 C CNN
+F 2 "" H 4300 5950 50  0001 C CNN
+F 3 "" H 4300 5950 50  0001 C CNN
+	1    4300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR033
+U 1 1 5FA8EC0A
+P 4250 4250
+F 0 "#PWR033" H 4250 4100 50  0001 C CNN
+F 1 "VCC" H 4265 4423 50  0000 C CNN
+F 2 "" H 4250 4250 50  0001 C CNN
+F 3 "" H 4250 4250 50  0001 C CNN
+	1    4250 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 5650 0    50   Input ~ 0
+INPUT4
+Wire Wire Line
+	4150 4450 4350 4450
+Text GLabel 4150 4850 0    50   Input ~ 0
+INPUT2
+Text GLabel 4150 5250 0    50   Input ~ 0
+INPUT3
+Wire Wire Line
+	4150 5650 4350 5650
+Wire Wire Line
+	4350 5250 4150 5250
+Wire Wire Line
+	4150 4850 4350 4850
+Wire Wire Line
+	4250 4650 4350 4650
+Wire Wire Line
+	4350 5850 4250 5850
+Wire Wire Line
+	4250 5850 4250 5450
+Connection ~ 4250 4650
+Wire Wire Line
+	4350 5050 4250 5050
+Connection ~ 4250 5050
+Wire Wire Line
+	4250 5050 4250 4650
+Wire Wire Line
+	4350 5450 4250 5450
+Connection ~ 4250 5450
+Wire Wire Line
+	4250 5450 4250 5050
+Wire Wire Line
+	4300 5950 4300 5750
+Wire Wire Line
+	4300 4550 4350 4550
+Wire Wire Line
+	4350 4950 4300 4950
+Connection ~ 4300 4950
+Wire Wire Line
+	4300 4950 4300 4550
+Wire Wire Line
+	4350 5350 4300 5350
+Connection ~ 4300 5350
+Wire Wire Line
+	4300 5350 4300 4950
+Wire Wire Line
+	4350 5750 4300 5750
+Connection ~ 4300 5750
+Wire Wire Line
+	4300 5750 4300 5350
+Text GLabel 5100 4450 0    50   Input ~ 0
+INPUT5
+$Comp
+L power:GND1 #PWR036
+U 1 1 5FB01090
+P 5250 5950
+F 0 "#PWR036" H 5250 5700 50  0001 C CNN
+F 1 "GND1" H 5255 5777 50  0000 C CNN
+F 2 "" H 5250 5950 50  0001 C CNN
+F 3 "" H 5250 5950 50  0001 C CNN
+	1    5250 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5100 5650 0    50   Input ~ 0
+INPUT8
+Wire Wire Line
+	5100 4450 5300 4450
+Text GLabel 5100 4850 0    50   Input ~ 0
+INPUT6
+Text GLabel 5100 5250 0    50   Input ~ 0
+INPUT7
+Wire Wire Line
+	5100 5650 5300 5650
+Wire Wire Line
+	5300 5250 5100 5250
+Wire Wire Line
+	5100 4850 5300 4850
+Wire Wire Line
+	5200 4650 5300 4650
+Wire Wire Line
+	5300 5850 5200 5850
+Wire Wire Line
+	5200 5850 5200 5450
+Connection ~ 5200 4650
+Wire Wire Line
+	5300 5050 5200 5050
+Connection ~ 5200 5050
+Wire Wire Line
+	5200 5050 5200 4650
+Wire Wire Line
+	5300 5450 5200 5450
+Connection ~ 5200 5450
+Wire Wire Line
+	5200 5450 5200 5050
+Wire Wire Line
+	5250 5950 5250 5750
+Wire Wire Line
+	5250 4550 5300 4550
+Wire Wire Line
+	5300 4950 5250 4950
+Connection ~ 5250 4950
+Wire Wire Line
+	5250 4950 5250 4550
+Wire Wire Line
+	5300 5350 5250 5350
+Connection ~ 5250 5350
+Wire Wire Line
+	5250 5350 5250 4950
+Wire Wire Line
+	5300 5750 5250 5750
+Connection ~ 5250 5750
+Wire Wire Line
+	5250 5750 5250 5350
+$Comp
+L power:VCC #PWR09
+U 1 1 5F97E0DB
+P 2000 1000
+F 0 "#PWR09" H 2000 850 50  0001 C CNN
+F 1 "VCC" H 2015 1173 50  0000 C CNN
+F 2 "" H 2000 1000 50  0001 C CNN
+F 3 "" H 2000 1000 50  0001 C CNN
+	1    2000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5FB4BB67
+P 2000 1150
+F 0 "D1" V 1950 1000 50  0000 L CNN
+F 1 "D_ESD" V 2045 1220 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2000 1150 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS21HT1-D.PDF" V 2000 1150 50  0001 C CNN
+F 4 "BAS21HT1G" H 2000 1150 50  0001 C CNN "MPN"
+F 5 "ON Semiconductor" H 2000 1150 50  0001 C CNN "Manufacturer"
+	1    2000 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 1000 2000 1050
+Wire Wire Line
+	2100 1050 2000 1050
+Connection ~ 2000 1050
+Wire Wire Line
+	2000 1250 2100 1250
+Wire Wire Line
+	1350 1250 1450 1250
+Wire Wire Line
+	1450 1250 1450 1350
+Wire Wire Line
+	1550 1250 1450 1250
+Connection ~ 1450 1250
+Connection ~ 2000 1250
+Wire Wire Line
+	1850 1250 2000 1250
+$Comp
+L Device:R R10
+U 1 1 5FBAEFE2
+P 2950 1650
+F 0 "R10" H 3020 1696 50  0000 L CNN
+F 1 "200Ω" H 3020 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2880 1650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2950 1650 50  0001 C CNN
+F 4 "RC1206FR-07200RL" H 2950 1650 50  0001 C CNN "MPN"
+F 5 "Yageo" H 2950 1650 50  0001 C CNN "Manufacturer"
+	1    2950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5FBB06CC
+P 2950 2450
+F 0 "R11" H 3020 2496 50  0000 L CNN
+F 1 "200Ω" H 3020 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2880 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2950 2450 50  0001 C CNN
+F 4 "RC1206FR-07200RL" H 2950 2450 50  0001 C CNN "MPN"
+F 5 "Yageo" H 2950 2450 50  0001 C CNN "Manufacturer"
+	1    2950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5FBB0D8F
+P 2950 3250
+F 0 "R12" H 3020 3296 50  0000 L CNN
+F 1 "200Ω" H 3020 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2880 3250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2950 3250 50  0001 C CNN
+F 4 "RC1206FR-07200RL" H 2950 3250 50  0001 C CNN "MPN"
+F 5 "Yageo" H 2950 3250 50  0001 C CNN "Manufacturer"
+	1    2950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5FBB13AC
+P 2950 4350
+F 0 "R13" H 3020 4396 50  0000 L CNN
+F 1 "200Ω" H 3020 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2880 4350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2950 4350 50  0001 C CNN
+F 4 "RC1206FR-07200RL" H 2950 4350 50  0001 C CNN "MPN"
+F 5 "Yageo" H 2950 4350 50  0001 C CNN "Manufacturer"
+	1    2950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5FBB1A62
+P 2950 5150
+F 0 "R14" H 3020 5196 50  0000 L CNN
+F 1 "200Ω" H 3020 5105 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2880 5150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2950 5150 50  0001 C CNN
+F 4 "RC1206FR-07200RL" H 2950 5150 50  0001 C CNN "MPN"
+F 5 "Yageo" H 2950 5150 50  0001 C CNN "Manufacturer"
+	1    2950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5FBB21E2
+P 2950 5950
+F 0 "R15" H 3020 5996 50  0000 L CNN
+F 1 "200Ω" H 3020 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2880 5950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2950 5950 50  0001 C CNN
+F 4 "RC1206FR-07200RL" H 2950 5950 50  0001 C CNN "MPN"
+F 5 "Yageo" H 2950 5950 50  0001 C CNN "Manufacturer"
+	1    2950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5FBB28A9
+P 2950 6750
+F 0 "R16" H 3020 6796 50  0000 L CNN
+F 1 "200Ω" H 3020 6705 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2880 6750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2950 6750 50  0001 C CNN
+F 4 "RC1206FR-07200RL" H 2950 6750 50  0001 C CNN "MPN"
+F 5 "Yageo" H 2950 6750 50  0001 C CNN "Manufacturer"
+	1    2950 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5FBB2F3F
+P 4550 4950
+F 0 "J2" H 4522 4928 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 4522 4973 50  0001 R CNN
+F 2 "Custom Library:CUI_TBP02R2-381-03BE" H 4550 4950 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" H 4550 4950 50  0001 C CNN
+F 4 "TBP02R2-381-03BE" H 4550 4950 50  0001 C CNN "MPN"
+F 5 "CUI Devices" H 4550 4950 50  0001 C CNN "Manufacturer"
+	1    4550 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 5FBB358D
+P 4550 5350
+F 0 "J3" H 4522 5328 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 4522 5373 50  0001 R CNN
+F 2 "Custom Library:CUI_TBP02R2-381-03BE" H 4550 5350 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" H 4550 5350 50  0001 C CNN
+F 4 "TBP02R2-381-03BE" H 4550 5350 50  0001 C CNN "MPN"
+F 5 "CUI Devices" H 4550 5350 50  0001 C CNN "Manufacturer"
+	1    4550 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5FBB3A16
+P 4550 5750
+F 0 "J4" H 4522 5728 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 4522 5773 50  0001 R CNN
+F 2 "Custom Library:CUI_TBP02R2-381-03BE" H 4550 5750 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" H 4550 5750 50  0001 C CNN
+F 4 "TBP02R2-381-03BE" H 4550 5750 50  0001 C CNN "MPN"
+F 5 "CUI Devices" H 4550 5750 50  0001 C CNN "Manufacturer"
+	1    4550 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5FBB3FDC
+P 5500 4550
+F 0 "J5" H 5472 4528 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5472 4573 50  0001 R CNN
+F 2 "Custom Library:CUI_TBP02R2-381-03BE" H 5500 4550 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" H 5500 4550 50  0001 C CNN
+F 4 "TBP02R2-381-03BE" H 5500 4550 50  0001 C CNN "MPN"
+F 5 "CUI Devices" H 5500 4550 50  0001 C CNN "Manufacturer"
+	1    5500 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J6
+U 1 1 5FBB4824
+P 5500 4950
+F 0 "J6" H 5472 4928 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5472 4973 50  0001 R CNN
+F 2 "Custom Library:CUI_TBP02R2-381-03BE" H 5500 4950 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" H 5500 4950 50  0001 C CNN
+F 4 "TBP02R2-381-03BE" H 5500 4950 50  0001 C CNN "MPN"
+F 5 "CUI Devices" H 5500 4950 50  0001 C CNN "Manufacturer"
+	1    5500 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 1 5FBB4DA9
+P 5500 5350
+F 0 "J7" H 5472 5328 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5472 5373 50  0001 R CNN
+F 2 "Custom Library:CUI_TBP02R2-381-03BE" H 5500 5350 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" H 5500 5350 50  0001 C CNN
+F 4 "TBP02R2-381-03BE" H 5500 5350 50  0001 C CNN "MPN"
+F 5 "CUI Devices" H 5500 5350 50  0001 C CNN "Manufacturer"
+	1    5500 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J8
+U 1 1 5FBB51D9
+P 5500 5750
+F 0 "J8" H 5472 5728 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5472 5773 50  0001 R CNN
+F 2 "Custom Library:CUI_TBP02R2-381-03BE" H 5500 5750 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" H 5500 5750 50  0001 C CNN
+F 4 "TBP02R2-381-03BE" H 5500 5750 50  0001 C CNN "MPN"
+F 5 "CUI Devices" H 5500 5750 50  0001 C CNN "Manufacturer"
+	1    5500 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5FBC3170
+P 1450 2300
+F 0 "C2" H 1565 2346 50  0000 L CNN
+F 1 "100nF" H 1565 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 2150 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 1450 2300 50  0001 C CNN
+F 4 "885012207098" H 1450 2300 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 1450 2300 50  0001 C CNN "Manufacturer"
+	1    1450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR02
+U 1 1 5FBC3176
+P 1450 2450
+F 0 "#PWR02" H 1450 2200 50  0001 C CNN
+F 1 "GND1" H 1455 2277 50  0000 C CNN
+F 2 "" H 1450 2450 50  0001 C CNN
+F 3 "" H 1450 2450 50  0001 C CNN
+	1    1450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FBC317C
+P 1700 2050
+F 0 "R2" V 1493 2050 50  0000 C CNN
+F 1 "1KΩ" V 1584 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1630 2050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 2050 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 1700 2050 50  0001 C CNN "MPN"
+F 5 "Yageo" H 1700 2050 50  0001 C CNN "Manufacturer"
+	1    1700 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR010
+U 1 1 5FBC3182
+P 2000 1800
+F 0 "#PWR010" H 2000 1650 50  0001 C CNN
+F 1 "VCC" H 2015 1973 50  0000 C CNN
+F 2 "" H 2000 1800 50  0001 C CNN
+F 3 "" H 2000 1800 50  0001 C CNN
+	1    2000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5FBC3188
+P 2000 1950
+F 0 "D2" V 1950 1800 50  0000 L CNN
+F 1 "D_ESD" V 2045 2020 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2000 1950 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS21HT1-D.PDF" V 2000 1950 50  0001 C CNN
+F 4 "BAS21HT1G" H 2000 1950 50  0001 C CNN "MPN"
+F 5 "ON Semiconductor" H 2000 1950 50  0001 C CNN "Manufacturer"
+	1    2000 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 1800 2000 1850
+Wire Wire Line
+	2100 1850 2000 1850
+Connection ~ 2000 1850
+Wire Wire Line
+	2000 2050 2100 2050
+Wire Wire Line
+	1350 2050 1450 2050
+Wire Wire Line
+	1450 2050 1450 2150
+Wire Wire Line
+	1550 2050 1450 2050
+Connection ~ 1450 2050
+Connection ~ 2000 2050
+Wire Wire Line
+	1850 2050 2000 2050
+$Comp
+L Device:C C3
+U 1 1 5FBCD9FF
+P 1450 3100
+F 0 "C3" H 1565 3146 50  0000 L CNN
+F 1 "100nF" H 1565 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 2950 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 1450 3100 50  0001 C CNN
+F 4 "885012207098" H 1450 3100 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 1450 3100 50  0001 C CNN "Manufacturer"
+	1    1450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR03
+U 1 1 5FBCDA05
+P 1450 3250
+F 0 "#PWR03" H 1450 3000 50  0001 C CNN
+F 1 "GND1" H 1455 3077 50  0000 C CNN
+F 2 "" H 1450 3250 50  0001 C CNN
+F 3 "" H 1450 3250 50  0001 C CNN
+	1    1450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FBCDA0B
+P 1700 2850
+F 0 "R3" V 1493 2850 50  0000 C CNN
+F 1 "1KΩ" V 1584 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1630 2850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 2850 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 1700 2850 50  0001 C CNN "MPN"
+F 5 "Yageo" H 1700 2850 50  0001 C CNN "Manufacturer"
+	1    1700 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR011
+U 1 1 5FBCDA11
+P 2000 2600
+F 0 "#PWR011" H 2000 2450 50  0001 C CNN
+F 1 "VCC" H 2015 2773 50  0000 C CNN
+F 2 "" H 2000 2600 50  0001 C CNN
+F 3 "" H 2000 2600 50  0001 C CNN
+	1    2000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5FBCDA17
+P 2000 2750
+F 0 "D3" V 1950 2600 50  0000 L CNN
+F 1 "D_ESD" V 2045 2820 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2000 2750 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS21HT1-D.PDF" V 2000 2750 50  0001 C CNN
+F 4 "BAS21HT1G" H 2000 2750 50  0001 C CNN "MPN"
+F 5 "ON Semiconductor" H 2000 2750 50  0001 C CNN "Manufacturer"
+	1    2000 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 2600 2000 2650
+Wire Wire Line
+	2100 2650 2000 2650
+Connection ~ 2000 2650
+Wire Wire Line
+	2000 2850 2100 2850
+Wire Wire Line
+	1350 2850 1450 2850
+Wire Wire Line
+	1450 2850 1450 2950
+Wire Wire Line
+	1550 2850 1450 2850
+Connection ~ 1450 2850
+Connection ~ 2000 2850
+Wire Wire Line
+	1850 2850 2000 2850
+$Comp
+L Device:C C4
+U 1 1 5FBD828E
+P 1450 3900
+F 0 "C4" H 1565 3946 50  0000 L CNN
+F 1 "100nF" H 1565 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 3750 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 1450 3900 50  0001 C CNN
+F 4 "885012207098" H 1450 3900 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 1450 3900 50  0001 C CNN "Manufacturer"
+	1    1450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR04
+U 1 1 5FBD8294
+P 1450 4050
+F 0 "#PWR04" H 1450 3800 50  0001 C CNN
+F 1 "GND1" H 1455 3877 50  0000 C CNN
+F 2 "" H 1450 4050 50  0001 C CNN
+F 3 "" H 1450 4050 50  0001 C CNN
+	1    1450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5FBD829A
+P 1700 3650
+F 0 "R4" V 1493 3650 50  0000 C CNN
+F 1 "1KΩ" V 1584 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1630 3650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 3650 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 1700 3650 50  0001 C CNN "MPN"
+F 5 "Yageo" H 1700 3650 50  0001 C CNN "Manufacturer"
+	1    1700 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR012
+U 1 1 5FBD82A0
+P 2000 3400
+F 0 "#PWR012" H 2000 3250 50  0001 C CNN
+F 1 "VCC" H 2015 3573 50  0000 C CNN
+F 2 "" H 2000 3400 50  0001 C CNN
+F 3 "" H 2000 3400 50  0001 C CNN
+	1    2000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5FBD82A6
+P 2000 3550
+F 0 "D4" V 1950 3400 50  0000 L CNN
+F 1 "D_ESD" V 2045 3620 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2000 3550 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS21HT1-D.PDF" V 2000 3550 50  0001 C CNN
+F 4 "BAS21HT1G" H 2000 3550 50  0001 C CNN "MPN"
+F 5 "ON Semiconductor" H 2000 3550 50  0001 C CNN "Manufacturer"
+	1    2000 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 3400 2000 3450
+Wire Wire Line
+	2100 3450 2000 3450
+Connection ~ 2000 3450
+Wire Wire Line
+	2000 3650 2100 3650
+Wire Wire Line
+	1350 3650 1450 3650
+Wire Wire Line
+	1450 3650 1450 3750
+Wire Wire Line
+	1550 3650 1450 3650
+Connection ~ 1450 3650
+Connection ~ 2000 3650
+Wire Wire Line
+	1850 3650 2000 3650
+$Comp
+L Device:C C5
+U 1 1 5FBE2BCF
+P 1450 5000
+F 0 "C5" H 1565 5046 50  0000 L CNN
+F 1 "100nF" H 1565 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 4850 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 1450 5000 50  0001 C CNN
+F 4 "885012207098" H 1450 5000 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 1450 5000 50  0001 C CNN "Manufacturer"
+	1    1450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR05
+U 1 1 5FBE2BD5
+P 1450 5150
+F 0 "#PWR05" H 1450 4900 50  0001 C CNN
+F 1 "GND1" H 1455 4977 50  0000 C CNN
+F 2 "" H 1450 5150 50  0001 C CNN
+F 3 "" H 1450 5150 50  0001 C CNN
+	1    1450 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5FBE2BDB
+P 1700 4750
+F 0 "R5" V 1493 4750 50  0000 C CNN
+F 1 "1KΩ" V 1584 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1630 4750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 4750 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 1700 4750 50  0001 C CNN "MPN"
+F 5 "Yageo" H 1700 4750 50  0001 C CNN "Manufacturer"
+	1    1700 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR013
+U 1 1 5FBE2BE1
+P 2000 4500
+F 0 "#PWR013" H 2000 4350 50  0001 C CNN
+F 1 "VCC" H 2015 4673 50  0000 C CNN
+F 2 "" H 2000 4500 50  0001 C CNN
+F 3 "" H 2000 4500 50  0001 C CNN
+	1    2000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5FBE2BE7
+P 2000 4650
+F 0 "D5" V 1950 4500 50  0000 L CNN
+F 1 "D_ESD" V 2045 4720 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2000 4650 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS21HT1-D.PDF" V 2000 4650 50  0001 C CNN
+F 4 "BAS21HT1G" H 2000 4650 50  0001 C CNN "MPN"
+F 5 "ON Semiconductor" H 2000 4650 50  0001 C CNN "Manufacturer"
+	1    2000 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 4500 2000 4550
+Wire Wire Line
+	2100 4550 2000 4550
+Connection ~ 2000 4550
+Wire Wire Line
+	2000 4750 2100 4750
+Wire Wire Line
+	1350 4750 1450 4750
+Wire Wire Line
+	1450 4750 1450 4850
+Wire Wire Line
+	1550 4750 1450 4750
+Connection ~ 1450 4750
+Connection ~ 2000 4750
+Wire Wire Line
+	1850 4750 2000 4750
+$Comp
+L Device:C C6
+U 1 1 5FBEE708
+P 1450 5800
+F 0 "C6" H 1565 5846 50  0000 L CNN
+F 1 "100nF" H 1565 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 5650 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 1450 5800 50  0001 C CNN
+F 4 "885012207098" H 1450 5800 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 1450 5800 50  0001 C CNN "Manufacturer"
+	1    1450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR06
+U 1 1 5FBEE70E
+P 1450 5950
+F 0 "#PWR06" H 1450 5700 50  0001 C CNN
+F 1 "GND1" H 1455 5777 50  0000 C CNN
+F 2 "" H 1450 5950 50  0001 C CNN
+F 3 "" H 1450 5950 50  0001 C CNN
+	1    1450 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5FBEE714
+P 1700 5550
+F 0 "R6" V 1493 5550 50  0000 C CNN
+F 1 "1KΩ" V 1584 5550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1630 5550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 5550 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 1700 5550 50  0001 C CNN "MPN"
+F 5 "Yageo" H 1700 5550 50  0001 C CNN "Manufacturer"
+	1    1700 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR014
+U 1 1 5FBEE71A
+P 2000 5300
+F 0 "#PWR014" H 2000 5150 50  0001 C CNN
+F 1 "VCC" H 2015 5473 50  0000 C CNN
+F 2 "" H 2000 5300 50  0001 C CNN
+F 3 "" H 2000 5300 50  0001 C CNN
+	1    2000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5FBEE720
+P 2000 5450
+F 0 "D6" V 1950 5300 50  0000 L CNN
+F 1 "D_ESD" V 2045 5520 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2000 5450 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS21HT1-D.PDF" V 2000 5450 50  0001 C CNN
+F 4 "BAS21HT1G" H 2000 5450 50  0001 C CNN "MPN"
+F 5 "ON Semiconductor" H 2000 5450 50  0001 C CNN "Manufacturer"
+	1    2000 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 5300 2000 5350
+Wire Wire Line
+	2100 5350 2000 5350
+Connection ~ 2000 5350
+Wire Wire Line
+	2000 5550 2100 5550
+Wire Wire Line
+	1350 5550 1450 5550
+Wire Wire Line
+	1450 5550 1450 5650
+Wire Wire Line
+	1550 5550 1450 5550
+Connection ~ 1450 5550
+Connection ~ 2000 5550
+Wire Wire Line
+	1850 5550 2000 5550
+$Comp
+L Device:C C7
+U 1 1 5FBFAD6C
+P 1450 6600
+F 0 "C7" H 1565 6646 50  0000 L CNN
+F 1 "100nF" H 1565 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 6450 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 1450 6600 50  0001 C CNN
+F 4 "885012207098" H 1450 6600 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 1450 6600 50  0001 C CNN "Manufacturer"
+	1    1450 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR07
+U 1 1 5FBFAD72
+P 1450 6750
+F 0 "#PWR07" H 1450 6500 50  0001 C CNN
+F 1 "GND1" H 1455 6577 50  0000 C CNN
+F 2 "" H 1450 6750 50  0001 C CNN
+F 3 "" H 1450 6750 50  0001 C CNN
+	1    1450 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5FBFAD78
+P 1700 6350
+F 0 "R7" V 1493 6350 50  0000 C CNN
+F 1 "1KΩ" V 1584 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1630 6350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 6350 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 1700 6350 50  0001 C CNN "MPN"
+F 5 "Yageo" H 1700 6350 50  0001 C CNN "Manufacturer"
+	1    1700 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR015
+U 1 1 5FBFAD7E
+P 2000 6100
+F 0 "#PWR015" H 2000 5950 50  0001 C CNN
+F 1 "VCC" H 2015 6273 50  0000 C CNN
+F 2 "" H 2000 6100 50  0001 C CNN
+F 3 "" H 2000 6100 50  0001 C CNN
+	1    2000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5FBFAD84
+P 2000 6250
+F 0 "D7" V 1950 6100 50  0000 L CNN
+F 1 "D_ESD" V 2045 6320 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2000 6250 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS21HT1-D.PDF" V 2000 6250 50  0001 C CNN
+F 4 "BAS21HT1G" H 2000 6250 50  0001 C CNN "MPN"
+F 5 "ON Semiconductor" H 2000 6250 50  0001 C CNN "Manufacturer"
+	1    2000 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 6100 2000 6150
+Wire Wire Line
+	2100 6150 2000 6150
+Connection ~ 2000 6150
+Wire Wire Line
+	2000 6350 2100 6350
+Wire Wire Line
+	1350 6350 1450 6350
+Wire Wire Line
+	1450 6350 1450 6450
+Wire Wire Line
+	1550 6350 1450 6350
+Connection ~ 1450 6350
+Connection ~ 2000 6350
+Wire Wire Line
+	1850 6350 2000 6350
+$Comp
+L Device:C C8
+U 1 1 5FC175CE
+P 1450 7400
+F 0 "C8" H 1565 7446 50  0000 L CNN
+F 1 "100nF" H 1565 7355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 7250 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/885012207098.pdf" H 1450 7400 50  0001 C CNN
+F 4 "885012207098" H 1450 7400 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 1450 7400 50  0001 C CNN "Manufacturer"
+	1    1450 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR08
+U 1 1 5FC175D4
+P 1450 7550
+F 0 "#PWR08" H 1450 7300 50  0001 C CNN
+F 1 "GND1" H 1455 7377 50  0000 C CNN
+F 2 "" H 1450 7550 50  0001 C CNN
+F 3 "" H 1450 7550 50  0001 C CNN
+	1    1450 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5FC175DA
+P 1700 7150
+F 0 "R8" V 1493 7150 50  0000 C CNN
+F 1 "1KΩ" V 1584 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1630 7150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 7150 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 1700 7150 50  0001 C CNN "MPN"
+F 5 "Yageo" H 1700 7150 50  0001 C CNN "Manufacturer"
+	1    1700 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR016
+U 1 1 5FC175E0
+P 2000 6900
+F 0 "#PWR016" H 2000 6750 50  0001 C CNN
+F 1 "VCC" H 2015 7073 50  0000 C CNN
+F 2 "" H 2000 6900 50  0001 C CNN
+F 3 "" H 2000 6900 50  0001 C CNN
+	1    2000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5FC175E6
+P 2000 7050
+F 0 "D8" V 1950 6900 50  0000 L CNN
+F 1 "D_ESD" V 2045 7120 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2000 7050 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS21HT1-D.PDF" V 2000 7050 50  0001 C CNN
+F 4 "BAS21HT1G" H 2000 7050 50  0001 C CNN "MPN"
+F 5 "ON Semiconductor" H 2000 7050 50  0001 C CNN "Manufacturer"
+	1    2000 7050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 6900 2000 6950
+Wire Wire Line
+	2100 6950 2000 6950
+Connection ~ 2000 6950
+Wire Wire Line
+	2000 7150 2100 7150
+Wire Wire Line
+	1350 7150 1450 7150
+Wire Wire Line
+	1450 7150 1450 7250
+Wire Wire Line
+	1550 7150 1450 7150
+Connection ~ 1450 7150
+Connection ~ 2000 7150
+Wire Wire Line
+	1850 7150 2000 7150
+Wire Wire Line
+	2750 3700 2750 3650
+Wire Wire Line
+	2750 2900 2750 2850
+Wire Wire Line
+	2750 2850 2700 2850
+Wire Wire Line
+	2750 1300 2750 1250
+Wire Wire Line
+	2750 1250 2700 1250
+Wire Wire Line
+	2750 2100 2750 2050
+Wire Wire Line
+	2750 2050 2700 2050
+Wire Wire Line
+	2750 6400 2750 6350
+Wire Wire Line
+	2750 6350 2700 6350
+Wire Wire Line
+	2750 5600 2750 5550
+Wire Wire Line
+	2750 5550 2700 5550
+Wire Wire Line
+	2750 4800 2750 4750
+Wire Wire Line
+	2750 4750 2700 4750
+Wire Wire Line
+	2750 7200 2750 7150
+$Comp
+L Switch:SW_Push_Dual SW2
+U 1 1 5F8E7FBD
+P 10050 4150
+F 0 "SW2" H 10050 4435 50  0000 C CNN
+F 1 "PRG" H 10050 4344 50  0000 C CNN
+F 2 "Custom Library:PTS647SM38SMTR2LFS" H 10050 4350 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/2567/pts647.pdf" H 10050 4350 50  0001 C CNN
+F 4 "PTS647SM38SMTR2LFS" H 10050 4150 50  0001 C CNN "MPN"
+F 5 "C&K" H 10050 4150 50  0001 C CNN "Manufacturer"
+	1    10050 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 1800 2    50   Input ~ 0
+GPIO19
+$Comp
+L power:VCC #PWR0101
+U 1 1 5FAB6E78
+P 5200 4250
+F 0 "#PWR0101" H 5200 4100 50  0001 C CNN
+F 1 "VCC" H 5215 4423 50  0000 C CNN
+F 2 "" H 5200 4250 50  0001 C CNN
+F 3 "" H 5200 4250 50  0001 C CNN
+	1    5200 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4250 4250 4650
+Wire Wire Line
+	5200 4250 5200 4650
+Text Notes 550  650  0    50   ~ 0
+f cuttoff = 1591,55 Hz
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5FAE91C5
+P 7050 1400
+F 0 "J?" H 7130 1392 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 7130 1301 50  0000 L CNN
+F 2 "" H 7050 1400 50  0001 C CNN
+F 3 "~" H 7050 1400 50  0001 C CNN
+	1    7050 1400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
