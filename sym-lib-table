@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name 8-DI-ESP32-PCB-cache)(type Legacy)(uri ${KIPRJMOD}/8-DI-ESP32-PCB-cache.lib)(options "")(descr ""))
-  (lib (name ESP32-WROVER-IE)(type Legacy)(uri C:/Users/ricow/OneDrive/Bureaublad/ESP32-WROVER-IE.lib)(options "")(descr ""))
-  (lib (name 8-DI-ESP32-PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/8-DI-ESP32-PCB-rescue.lib)(options "")(descr ""))
-)
